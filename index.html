@@ -110,5 +110,14 @@
 <script src="js/main.js" async></script>
 
 <script src="../../../js/lib/ga.js"></script>
+<script>
+function slideris(){
+	var x = document.getElementById("slide").value;
+	document.getElementById("new").innerHTML = x;
+	document.documentElement.style.setProperty('--value', x);
+	document.documentElement.style.setProperty('--value2', x+"px");
+	 	
+}
+</script>		 
 </body>
 </html>
